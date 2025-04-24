@@ -4,6 +4,7 @@ pipelineR
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/pkinif/pipelineR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pkinif/pipelineR/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/SunAjiboye/pipelineXR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SunAjiboye/pipelineXR/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 # <img src="man/figures/logo.png" align="right" height="120" />
@@ -63,8 +64,6 @@ pipelineR::start_pipeline(
   batch_size = 20
 )
 ```
-Ou can also use the code from dev/external_env.R
-
 
 ------------------------------------------------------------------------
 
@@ -82,6 +81,13 @@ Ou can also use the code from dev/external_env.R
 | `push_summary_table()`  | Push summary logs into the database              |
 | `start_pipeline()`      | Orchestrate the entire ETL process               |
 
+------------------------------------------------------------------------
+
+## Tests
+
+All major functions are covered by `testthat` unit tests.  
+Tests are automatically executed in the CI/CD pipeline to ensure the
+package remains stable after each update.
 
 ------------------------------------------------------------------------
 
