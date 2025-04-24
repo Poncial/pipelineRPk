@@ -48,12 +48,12 @@ con <- connect_db()
 
 Make sure your `.Renviron` contains:
 
-    PG_DB='yourdbname'
-    PG_HOST='yourhost'
-    PG_USER='youruser'
-    PG_PASSWORD='yourpassword'
-    PG_SCHEMA='yourschema'
-    user_login='yourname'
+   PG_DB='postgres'
+  PG_HOST='dlh.cerk0ko48rck.us-east-1.rds.amazonaws.com'
+  PG_USER='sunday'
+  PG_PASSWORD='xplUPilcTujY'
+  PG_SCHEMA='student_sunday'
+  user_login='sunday'
 
 Run the full pipeline:
 
