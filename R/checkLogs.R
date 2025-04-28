@@ -19,7 +19,7 @@
 #' @importFrom DBI dbGetQuery dbDisconnect
 #' @importFrom rmarkdown render
 #' @export
-extractLast24hPipelineLogsMd <- function(outputFile = "output.md") {
+checkLogs <- function(outputFile = "output.md") {
   # Connect to the database
   con <- connect_db()
   
