@@ -1,0 +1,6 @@
+PG_DB='postgres'
+PG_HOST='dlh.cerk0ko48rck.us-east-1.rds.amazonaws.com'
+PG_USER='alexandre'
+PG_PASSWORD='SCjbQLoKqoeg'
+PG_SCHEMA='student_alexandre'
+user_login='alexandre'
