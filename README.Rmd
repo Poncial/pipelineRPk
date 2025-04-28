@@ -4,7 +4,11 @@ output: github_document
 ---
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/pkinif/pipelineR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pkinif/pipelineR/actions/workflows/R-CMD-check.yaml)
+<<<<<<< HEAD
 [![R-CMD-check](https://github.com/Poncial/pipelineRPk/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Poncial/pipelineRPk/actions/workflows/R-CMD-check.yaml)
+=======
+[![R-CMD-check](https://github.com/SunAjiboye/pipelineXR/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/SunAjiboye/pipelineXR/actions/workflows/R-CMD-check.yaml)
+>>>>>>> 04861eefb5471c27d0a0feb424a653932b855bc5
 <!-- badges: end -->
 
 

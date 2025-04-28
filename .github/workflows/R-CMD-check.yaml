@@ -27,13 +27,21 @@ jobs:
 
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+<<<<<<< HEAD
       R_KEEP_PKG_SOURCE: yes
+=======
+>>>>>>> 04861eefb5471c27d0a0feb424a653932b855bc5
       PG_DB: ${{ secrets.PG_DB }}
       PG_HOST: ${{ secrets.PG_HOST }}
       PG_USER: ${{ secrets.PG_USER }}
       PG_PASSWORD: ${{ secrets.PG_PASSWORD }}
+<<<<<<< HEAD
       PG_SCHEMA: ${{ secrets.PG_SCHEMA }}
       user_login: ${{ secrets.user_login }}
+=======
+      
+      R_KEEP_PKG_SOURCE: yes
+>>>>>>> 04861eefb5471c27d0a0feb424a653932b855bc5
 
     steps:
       - uses: actions/checkout@v4
